@@ -18,10 +18,8 @@ import com.sa.logprovider.framework.providers.LogProvider;
 public class LogProviderFactoryImpl extends LogProviderBaseFactory implements LogProviderFactory{
 
 	/**
-	 * TODO: Move the createProvider to base class and have the selected provider bean 
-	 * to it as argument for provider creation 
+	 * 
 	 */
-
 	private @Autowired @Lazy List<LogProvider> logProviderList;
 
 	/**
