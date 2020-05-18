@@ -1,1 +1,1 @@
-# logging-framework
+# Extensible Logging Framework
